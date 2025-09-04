@@ -7,11 +7,8 @@ graph TD
         UI
     end
 
-    subgraph Front["React"]
+    subgraph Front/Back["React/Next"]
         FrontEnd
-    end
-
-    subgraph Back["Next"]
         BackEnd
     end
 
