@@ -112,7 +112,7 @@ graph TD
         caso5([Acessar o DashBoard])
     end
 
-    Tecnico([Técnico de Manutenção])
+    Tecnico([![alt text](image.png)Técnico de Manutenção])
     Gerente([Gerente de Manutenção])
     Admin([Administrador do Sistema])
 
@@ -129,9 +129,9 @@ graph TD
     Admin --> caso4
     Admin --> caso5
 
-    caso2 -.-> caso1
-    caso3 -.-> caso1
-    caso4 -.-> caso1
-    caso5 -.-> caso1
+    caso1 -.-> caso2
+    caso1 -.-> caso3
+    caso1 -.-> caso4
+    caso1 -.-> caso5
     
 ```
